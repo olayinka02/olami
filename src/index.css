@@ -22,7 +22,7 @@ div.landingpage{
   background-color:#7fb6ca;
   margin-top: 0rem;
   padding-top: 3rem;
-  height: 25rem;
+  height: 28rem;
   margin-left:auto;
   margin-right:auto;
   padding-left: auto;
@@ -43,7 +43,7 @@ div.landingpage{
   background-repeat: no-repeat;
 }
 img.myimage{
-  margin-top:-4rem;
+  margin-top:-2rem;
   width:12rem;
   height:12rem;
   border-radius: 100% 100%;
@@ -54,7 +54,7 @@ div.details{
   margin-top:-2rem;
 }
 h2.name{
-  font-family:cursive;
+  font-family:"luna";
   font-weight: 500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: whitesmoke;
@@ -99,7 +99,7 @@ h4.title-fade-in {
 }
 img.logo{
   width: 6.5rem;
-  height:2.9rem;
+  height:2.1rem;
 }
 .btnx{
   margin-left:auto;
@@ -289,7 +289,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:cursive;
+    font-family:"luna";
     font-weight: 500;
     color:whitesmoke;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -404,7 +404,7 @@ img.brandx{
 @media (min-width: 768px) { 
   body {
     margin: 0;
-    font-family:"luna"
+    font-family:"luna";
   }
   div.landingpage{
     background-color:#85B6C6;
@@ -435,7 +435,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:cursive;
+    font-family:"luna";
     font-weight: 500;
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -566,7 +566,7 @@ img.brandx{
 @media (min-width: 992px) { 
   body {
     margin: 0;
-    font-family:"luna"
+    font-family:"luna";
   }
   div.landingpage{
     background-color:#85B6C6;
@@ -597,7 +597,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:cursive;
+    font-family:"luna";
     font-weight: 500;
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -757,7 +757,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:cursive;
+    font-family:"luna";
     font-weight: 500;
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

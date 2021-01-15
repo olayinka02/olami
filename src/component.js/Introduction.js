@@ -23,7 +23,7 @@ const Introduction = () => {
                <Col sm={12} md={7} xs={12} data-aos="fade-up" className="introduction">
                <h3>Introduction.</h3>
                <p>
-               Hi there 👋🏽, I am 0layinka, a web developer (frontend Engineer). I have over two years experience 
+               Hi there 👋🏽, I am 0layinka, a web developer (Frontend Engineer). I have over two years experience 
                 building pixel-perfect user interfaces &amp; awesome experiences, working with bleeding 
                 edge technologies to solve problems. I speak React right now.
                </p>
