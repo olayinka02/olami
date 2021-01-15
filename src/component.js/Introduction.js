@@ -15,10 +15,12 @@ const Introduction = () => {
       <div className="introduction">
        <Container >
            <Row>
-               <Col sm={12} md={5}>
-                <img src={illustrationone} alt="illustration" className="introillustration" />
+               <Col sm={12} md={5} xs={12}>
+                 <center>
+                 <img src={illustrationone} alt="illustration" className="introillustration" />
+                 </center>
                </Col>
-               <Col sm={12} md={7}  data-aos="fade-up" className="introduction">
+               <Col sm={12} md={7} xs={12} data-aos="fade-up" className="introduction">
                <h3>Introduction.</h3>
                <p>
                Hi there 👋🏽, I am 0layinka, a web developer (frontend Engineer). I have over two years experience 

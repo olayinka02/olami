@@ -14,7 +14,7 @@ class App extends Component {
        <LandingPage/><br/>
        <Introduction /><br/><br/>
        <Services />
-       <Experience /><br/><br/>
+       <Experience /><br/><br/><br/><br/>
        <Projects /><br/><br/>
       </div>
     );

@@ -15,9 +15,10 @@ const Services = () => {
     return (
       <div>
        <Container fluid   className="servicebg">
+         <center>
            <center  data-aos="fade-up">
            <h2 className="service">Services</h2>
-           <h6  className="service" >0layinka will give it to you more than how you need it..</h6>
+           <h6  className="service" >C0ntact 0la for any of the following.</h6>
            </center>
           
            <Row>
@@ -69,6 +70,7 @@ const Services = () => {
                  </div>
                </Col>
            </Row>
+           </center>
        </Container>
       </div>
     );

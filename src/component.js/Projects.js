@@ -27,6 +27,7 @@ import  k2 from './imagex/k2.png';
 import  ped1 from './imagex/ped1.png';
 import  ped2 from './imagex/ped2.png';
 import  ped3 from './imagex/ped3.png';
+import  ped4 from './imagex/ped4.png';
 import  bible from './imagex/bible.png';
 import  math1 from './imagex/math1.png';
 import  math2 from './imagex/math2.png';
@@ -41,57 +42,57 @@ const Projects = () => {
   }, []);
     return (
       <div className="project">
-          <center><h2 className="service" >Latest Projects</h2></center>
+          <center><h2 className="service" >Latest Projects</h2></center><hr/>
        <Container >
            <Row>
                <Col  data-aos="fade-up" sm={12} md={3}>
                    <div className="projectbg">
                    <h4>Brand Designed.</h4><hr/>
                    <Row>
-                       <Col sm={5} md={5}>
+                       <Col sm={5} md={12} xs={12}>
                          <img src={brandone} alt="brand" className="brandimg" />
                        </Col>
-                       <Col sm={7} md={7}>
+                       <Col sm={7} md={12} xs={12}>
                         <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
                        </Col>
                    </Row><hr/>
                    <Row>
-                       <Col sm={5} md={5}>
+                       <Col sm={5} md={12} xs={12}>
                          <img src={brandtwo} alt="brand" className="brandimg" />
                        </Col>
-                       <Col sm={7} md={7}>
+                       <Col sm={7} md={12} xs={12}>
                        <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
                        </Col>
                    </Row><hr/>
                    <Row>
-                       <Col sm={5} md={5}>
+                       <Col sm={5} md={12} xs={12}>
                          <img src={brandfour} alt="brand" className="brandimg" />
                        </Col>
-                       <Col sm={7} md={7}>
+                       <Col sm={7} md={12} xs={12}>
                        <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>  
                        </Col>
                    </Row><hr/>
                    <Row>
-                       <Col sm={5} md={5}>
+                       <Col sm={5} md={12} xs={12}>
                          <img src={brandfive} alt="brand" className="brandimg" />
                        </Col>
-                       <Col sm={7} md={7}>
+                       <Col sm={7} md={12} xs={12}>
                        <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
                        </Col>
                    </Row><hr/>
                    <Row>
-                       <Col sm={5} md={5}>
+                       <Col sm={5} md={12} xs={12}>
                          <img src={brandthree} alt="brand" className="brandimg" />
                        </Col>
-                       <Col sm={7} md={7}>
+                       <Col sm={7} md={12} xs={12}>
                        <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
                        </Col>
                    </Row><hr/>
                    <Row>
-                       <Col sm={5} md={5}>
+                       <Col sm={5} md={12} xs={12}>
                          <img src={brandsix} alt="brand" className="brandimg" />
                        </Col>
-                       <Col sm={7} md={7}>
+                       <Col sm={7} md={12} xs={12}>
                        <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
                        </Col>
                    </Row>
@@ -245,6 +246,13 @@ const Projects = () => {
                         <Carousel.Item interval={3000}>
                             <img
                             className="d-block w-100"
+                            src={ped4}
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                            className="d-block w-100"
                             src={ped3}
                             alt="First slide"
                             />
@@ -354,7 +362,7 @@ const Projects = () => {
                             <li>Designing with simple HTML and CSS.</li>
                             <li>Bootstrap3.0 for better responsiveness throughout different screen.</li>
                             <li>Content write-up</li>
-                            <h6 ><b style={{color:'red',}}>Technology:</b>CSS, Bootstrap3, HTML5, JavaScript </h6>
+                            <h6 ><b style={{color:'red',}}>Technology:</b> CSS, Bootstrap3, HTML5, JavaScript </h6>
                             <Link to='./' style={{textDecorationLine:'none',}} >
                               <h6 style={{color:'blue',}}><BoxArrowUpRight /> check out</h6>
                             </Link>
@@ -393,7 +401,7 @@ const Projects = () => {
                             <li>Designing with simple HTML and CSS.</li>
                             <li>SemanticUI for better responsiveness throughout different screen.</li>
                             <li>Content write-up</li>
-                            <h6 ><b style={{color:'red',}}>Technology:</b>CSS, Semantic-UI, HTML5, JavaScript </h6>
+                            <h6 ><b style={{color:'red',}}>Technology:</b> CSS, Semantic-UI, HTML5, JavaScript </h6>
                             <Link to='./' style={{textDecorationLine:'none',}} >
                               <h6 style={{color:'blue',}}><BoxArrowUpRight /> check out (need some update)</h6>
                             </Link>

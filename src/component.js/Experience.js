@@ -19,12 +19,12 @@ const Experience = () => {
               <div  data-aos="zoom-in-up" className="experiencebg">
               <h4>Skills</h4>
               <ul>
-                <li>UI/UX Design(Figma,Invision etc)</li>
+                <li>UI/UX Design (Figma,Invision etc)</li>
                 <li>HTML5 & CSS3</li>
                 <li>JavaScript (ES6 Hands-on)</li>
                 <li>Bootstrap</li>
                 <li>ReactJS/React-Native</li>
-                <li>Nodejs(Express)</li>
+                <li>Nodejs (Express)</li>
                 <li>PHP</li>
                 <li>Python</li>
                 <li>MATLAB</li>
@@ -83,12 +83,12 @@ const Experience = () => {
                   <h6><GeoAlt /> Abuja, Nigeria.</h6>
                   <h6><TelephoneOutbound /> 08101831001</h6>
                   <Link to='/' style={{textDecorationLine:'none',}} >
-                  <h6><Envelope /> oluwasegunyinka.samuel@gmail.com</h6>
+                  <h6><Envelope /> Email</h6>
                   </Link>
                   <Link to='/' style={{textDecorationLine:'none',}} >
                   <h6><Github /> Github</h6>
                   </Link>
-                  <Link to='www.linkedin.com/in/akinseye-oluwasegun-yinka-319a661a9/' style={{textDecorationLine:'none',}} >
+                  <Link to='//www.linkedin.com/in/akinseye-oluwasegun-yinka-319a661a9/' style={{textDecorationLine:'none',}} >
                   <h6><Linkedin /> Linkedin</h6>
                   </Link>
                   <Link to='/' style={{textDecorationLine:'none',}}>

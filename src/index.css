@@ -1,4 +1,8 @@
-@import url('https://fonts.googlerapis.com/css?family=Source+Sans+Pro&display=swap');
+
+html{
+  width:100%;
+  overflow-y: hidden;
+}
 body {
   margin: 0;
   background-color: whitesmoke;
@@ -31,11 +35,8 @@ div.landingpage{
  padding-bottom:2rem;
  padding-right:auto;
  padding-left:auto;
- 
- 
-  margin-left: 10rem;
-  margin-right: 10rem;
- 
+  margin-left:auto;
+  margin-right:auto;
   background-image:none;
   justify-content: center;
   position: relative;
@@ -46,7 +47,8 @@ img.myimage{
   width:12rem;
   height:12rem;
   border-radius: 100% 100%;
-  margin-left:4rem;
+  margin-left:auto;
+  margin-right: auto;
 }
 div.details{
   margin-top:-2rem;
@@ -100,17 +102,18 @@ img.logo{
   height:2.9rem;
 }
 .btnx{
-  margin-left:3.5rem;
+  margin-left:auto;
+  margin-right: auto;
 }
 img.introillustration{
-  width: 20rem;
+  width:13rem;
   height: 14rem;
-  margin-left:0 auto;
-  margin-top:0 auto;
+  margin-left:auto;
+  margin-top:auto;
 }
 .servicebg{
   width: 100%;
-  height:90rem;
+  height:95rem;
   background-color: #f3f9fa;
   margin-left: 0 auto;
   margin-right: 0 auto;
@@ -119,20 +122,22 @@ img.introillustration{
 img.illustrationimg{
   width:10rem;
   height:6rem;
+  padding-left: auto;
+  padding-right: auto;
  
 }
 div.servicebody{
   margin-left: auto;
   margin-right:auto;
-  padding-left:6rem;
-  padding-right:6rem;
+  padding-left:4rem;
+  padding-right:4rem;
   margin-top:2.4rem;
 }
 div.servicebodyx{
   margin-left: auto;
   margin-right:auto;
-  padding-left:5rem;
-  padding-right:5rem;
+  padding-left:4rem;
+  padding-right:4rem;
   margin-top:8rem;
 }
 h2.service{
@@ -209,7 +214,7 @@ div.projectbg{
   padding-bottom:1rem;
   margin-left: auto;
   margin-right: auto;
-  background-color:whitesmoke;
+  background-color:#f4fbfd;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   
 }
@@ -221,7 +226,7 @@ div.projectbgx{
   margin-left: auto;
   margin-right: auto;
   margin-top:2rem;
-  background-color:whitesmoke;
+  background-color:#f4fbfd;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   
 }
@@ -241,305 +246,6 @@ img.brandx{
 
 
 
-
-/* Small devices (landscape phones, 300px and up) */
-@media (min-width: 300px) {
-  @import url('https://fonts.googlerapis.com/css?family=Source+Sans+Pro&display=swap');
-body {
-  margin: 0;
-  background-color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-div.landingpage{
-  background-color:#7fb6ca;
-  margin-top: 0rem;
-  padding-top: 3rem;
-  height: 25rem;
-  margin-left:auto;
-  margin-right:auto;
-  padding-left: auto;
-  padding-right: auto;
-}
-.landingpagebody{
-  width: 100%;
- padding-top:5rem;
- padding-bottom:2rem;
- padding-right:auto;
- padding-left:auto;
- 
- 
-  margin-left: 10rem;
-  margin-right: 10rem;
- 
-  background-image:none;
-  justify-content: center;
-  position: relative;
-  background-repeat: no-repeat;
-}
-img.myimage{
-  margin-top:-4rem;
-  width:12rem;
-  height:12rem;
-  border-radius: 100% 100%;
-  margin-left:4rem;
-}
-div.details{
-  margin-top:-2rem;
-}
-h2.name{
-  font-family:cursive;
-  font-weight: 500;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  color: whitesmoke;
-  text-align: center;
-}
-.navhead{
-  background-color:whitesmoke;
-  box-shadow: 0px 3px 6px -2px rgb(0, 0, 0, 0.3);
-
-}
-h4.title-fade-out {
-  opacity: 0;
-  animation-name: fade-out;
-  animation-duration: 3s;
-  color: black;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-}
-h4.title-fade-in {
-  opacity: 100;
-  animation-name: fade-in;
-  animation-duration: 3s;
-  color: black;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-}
-@keyframes fade-out{
-  from { opacity: 100}
-  to { opacity:0}
-}
-
-
-@keyframes fade-in {
-  from { opacity:0}
-  to { opacity: 100}
-}
-.introduction{
-  padding: 1.2rem;
-}
-.introduction p{
-  font-size:1.2rem;
-}
-img.logo{
-  width: 6.5rem;
-  height:2.9rem;
-}
-.btnx{
-  margin-left:3.5rem;
-}
-img.introillustration{
-  width: 20rem;
-  height: 14rem;
-  margin-left:0 auto;
-  margin-top:0 auto;
-}
-.servicebg{
-  width: 100%;
-  height:90rem;
-  background-color: #f3f9fa;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  padding-top: 3rem;
-}
-div.experiencebgxx{
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin-left: auto;
-  margin-top: 2rem;
-  margin-right: auto;
-  background-color:  #f3f9fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-}
-div.projectbgx{
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:2rem;
-  background-color:whitesmoke;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-}
-
-
-
-
-}  
-
-
-
-
-
-
-
-
-
-/* Small devices (landscape phones, 400px and up) */
-@media (min-width: 400px) {  
-  @import url('https://fonts.googlerapis.com/css?family=Source+Sans+Pro&display=swap');
-body {
-  margin: 0;
-  background-color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-div.landingpage{
-  background-color:#7fb6ca;
-  margin-top: 0rem;
-  padding-top: 3rem;
-  height: 25rem;
-}
-.landingpagebody{
-  width: 100%;
- padding-top:5rem;
- padding-bottom:2rem;
- padding-right:2rem;
- padding-left:2.48rem;
- 
- 
-  margin-left: 10rem;
- 
-  background-image:none;
-  justify-content: center;
-  position: relative;
-  background-repeat: no-repeat;
-}
-img.myimage{
-  margin-top:-4rem;
-  width:12rem;
-  height:12rem;
-  border-radius: 100% 100%;
-  margin-left:3rem;
-}
-div.details{
-  margin-top:-2rem;
-}
-h2.name{
-  font-family:cursive;
-  font-weight: 500;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  color: whitesmoke;
-  text-align: center;
-}
-.navhead{
-  background-color:whitesmoke;
-  box-shadow: 0px 3px 6px -2px rgb(0, 0, 0, 0.3);
-
-}
-h4.title-fade-out {
-  opacity: 0;
-  animation-name: fade-out;
-  animation-duration: 3s;
-  color: black;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-}
-h4.title-fade-in {
-  opacity: 100;
-  animation-name: fade-in;
-  animation-duration: 3s;
-  color: black;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-}
-@keyframes fade-out{
-  from { opacity: 100}
-  to { opacity:0}
-}
-
-
-@keyframes fade-in {
-  from { opacity:0}
-  to { opacity: 100}
-}
-.introduction{
-  padding: 1.2rem;
-}
-.introduction p{
-  font-size:1.2rem;
-}
-img.logo{
-  width: 6.5rem;
-  height:2.9rem;
-}
-.btnx{
-  margin-left:3.2rem;
-}
-img.introillustration{
-  width: 20rem;
-  height: 14rem;
-  margin-left:auto;
-  margin-top: auto;
-}
-.servicebg{
-  width: 100%;
-  height:90rem;
-  background-color: #f3f9fa;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  padding-top: 3rem;
-}
-div.experiencebgxx{
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:2rem;
-  background-color:  #f3f9fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-}
-div.projectbgx{
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:2rem;
-  background-color:whitesmoke;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-}
-
-
-}
 
 
 
@@ -636,7 +342,8 @@ div.projectbgx{
     height:2.2rem;
   }
   .btnx{
-    margin-left:3rem;
+    margin-left:auto;
+    margin-right: auto;
   }
   img.introillustration{
     width: 20rem;
@@ -646,7 +353,7 @@ div.projectbgx{
   }
   .servicebg{
     width: 100%;
-    height:43rem;
+    height:83rem;
     background-color: #f3f9fa;
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -672,7 +379,7 @@ div.projectbgx{
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    background-color:whitesmoke;
+    background-color:#f4fbfd;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
   }
@@ -703,19 +410,18 @@ div.projectbgx{
     background-color:#85B6C6;
     margin-top: 0rem;
     padding-top: 3rem;
-    height: 25rem;
+    height:30rem;
   }
   .landingpagebody{
     width: 100%;
+    height:27rem;
     padding-top:5rem;
     padding-bottom:2rem;
-    padding-right:7rem;
-    padding-left:3rem;
-    
-     margin-left: 10rem;
-  
-  
-    background-image: url(image/landingbg2.svg);
+    padding-right:auto;
+    padding-left:auto;
+     margin-left:auto;
+     margin-right:auto;
+    background-image:none;
     position: relative;
     background-repeat: no-repeat;
   }
@@ -782,25 +488,43 @@ div.projectbgx{
     height:2.2rem;
   }
   .btnx{
-    margin-left:2.1rem;
+    margin-left:auto;
+    margin-right: auto;
   }
   img.introillustration{
     width:16rem;
     height:12rem;
-    margin-left:0rem;
+    margin-left:auto;
+    margin-right: auto;
     margin-top: 0rem;
   }
   .servicebg{
     width: 100%;
-    height:43rem;
+    height:46rem;
     background-color: #f3f9fa;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
     padding-top: 3rem;
   }
+  div.servicebody{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    margin-top:2.4rem;
+  }
+  div.servicebodyx{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:auto;
+    padding-right:auto;
+    margin-top:8rem;
+  }
   div.experiencebgxx{
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:auto;
+    padding-right:auto;
     padding-top:1rem;
     padding-bottom:1rem;
     margin-left: auto;
@@ -818,7 +542,7 @@ div.projectbgx{
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    background-color:whitesmoke;
+    background-color:#f4fbfd;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
   }
@@ -848,18 +572,17 @@ div.projectbgx{
     background-color:#85B6C6;
     margin-top: 0rem;
     padding-top: 3rem;
-    height: 25rem;
+    height:25rem;
   }
   .landingpagebody{
     width: 100%;
+    height:27rem;
     padding-top:5rem;
     padding-bottom:2rem;
-    padding-right:14rem;
-    padding-left:12rem;
-    
-     margin-left: 10rem;
-  
-  
+    padding-right:auto;
+    padding-left:auto;
+     margin-left:auto;
+     margin-right:auto;
     background-image: url(image/landingbg1.svg);
     position: relative;
     background-repeat: no-repeat;
@@ -927,7 +650,8 @@ div.projectbgx{
     height:2.2rem;
   }
   .btnx{
-    margin-left:3rem;
+    margin-left:auto;
+    margin-right: auto;
   }
   img.introillustration{
     width: 20rem;
@@ -942,6 +666,20 @@ div.projectbgx{
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding-top: 3rem;
+  }
+  div.servicebody{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:5rem;
+    padding-right:5rem;
+    margin-top:2.4rem;
+  }
+  div.servicebodyx{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:5rem;
+    padding-right:5rem;
+    margin-top:8rem;
   }
   div.experiencebgxx{
     padding-left:1rem;
@@ -963,7 +701,7 @@ div.projectbgx{
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    background-color:whitesmoke;
+    background-color:#f3f9fa;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
   }
@@ -1001,12 +739,10 @@ div.projectbgx{
     height:27rem;
     padding-top:5rem;
     padding-bottom:2rem;
-    padding-right:14rem;
-    padding-left:12rem;
-    
-     margin-left: 10rem;
-  
-  
+    padding-right:auto;
+    padding-left:auto;
+     margin-left:auto;
+     margin-right:auto;
     background-image: url(image/landingbg.svg);
     position: relative;
     background-repeat: no-repeat;
@@ -1074,7 +810,8 @@ div.projectbgx{
     height:2.1rem;
   }
   .btnx{
-    margin-left:3rem;
+    margin-left:auto;
+    margin-right: auto;
   }
   img.introillustration{
     width: 20rem;
@@ -1085,10 +822,24 @@ div.projectbgx{
   .servicebg{
     width: 100%;
     height:43rem;
-    background-color: #f3f9fa;
+    background-color: #f4fbfd;
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding-top: 3rem;
+  }
+  div.servicebody{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:5rem;
+    padding-right:5rem;
+    margin-top:2.4rem;
+  }
+  div.servicebodyx{
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:5rem;
+    padding-right:5rem;
+    margin-top:8rem;
   }
   div.experiencebgxx{
     padding-left:1rem;
@@ -1097,7 +848,7 @@ div.projectbgx{
     padding-bottom:1rem;
     margin-left: auto;
     margin-right: auto;
-    background-color:  #f3f9fa;
+    background-color:#f4fbfd;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
   }
@@ -1109,7 +860,7 @@ div.projectbgx{
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    background-color:whitesmoke;
+    background-color:#f4fbfd;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
   }
