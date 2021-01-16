@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { ExternalLink } from 'react-external-link';
 import { Container, Row,Col } from 'react-bootstrap';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import {  BriefcaseFill, Building, GeoAltFill, CalendarMonth, StarFill,StarHalf,GeoAlt, Envelope, Github, Linkedin, Twitter, TelephoneOutbound, Award, CalendarCheck} from 'react-bootstrap-icons';
+import {  BriefcaseFill, Building, GeoAltFill, CalendarMonth, StarFill,StarHalf,GeoAlt, Envelope, Github, Linkedin, TelephoneOutbound, Award, CalendarCheck,  ChatText} from 'react-bootstrap-icons';
 //import illustration1 from './imagex/illustration1.svg';
 
 
@@ -81,19 +81,28 @@ const Experience = () => {
                 </div><br/>
                 <div  data-aos="fade-up" className="experiencebgx">
                   <h6><GeoAlt /> Abuja, Nigeria.</h6>
+                  <ExternalLink href="tel:08101831001" style={{textDecorationLine:'none',color:'blue',}} >
                   <h6><TelephoneOutbound /> 08101831001</h6>
-                  <Link to='/' style={{textDecorationLine:'none',}} >
+                  </ExternalLink>
+
+                  <ExternalLink href="mailto:oluwasegunyinka.samuel@gmail.com?Subject=Mail%20to%20say%20hi." style={{textDecorationLine:'none',color:'blue',}} >
                   <h6><Envelope /> Email</h6>
-                  </Link>
-                  <Link to='/' style={{textDecorationLine:'none',}} >
+                  </ExternalLink>
+                 
+                  <ExternalLink href="https://github.com/olayinka02/" style={{textDecorationLine:'none',color:'blue',}} >
                   <h6><Github /> Github</h6>
-                  </Link>
-                  <Link to='//www.linkedin.com/in/akinseye-oluwasegun-yinka-319a661a9/' style={{textDecorationLine:'none',}} >
+                  </ExternalLink>
+                 
+                  <ExternalLink href='//www.linkedin.com/in/akinseye-oluwasegun-yinka-319a661a9/' style={{textDecorationLine:'none',color:'blue',}} >
                   <h6><Linkedin /> Linkedin</h6>
-                  </Link>
-                  <Link to='/' style={{textDecorationLine:'none',}}>
-                  <h6><Twitter /> Twitter  </h6>
-                  </Link>
+                  </ExternalLink>
+
+                  
+                  <ExternalLink  href=" https://wa.me/08101831001?text=Hello 👋🏽,%20you%20are%20welcome,%20How%20may%20I%20help%20you"  style={{textDecorationLine:'none',color:'blue',}} >
+                  <h6><ChatText /> Whatsapp  </h6>
+                  </ExternalLink>
+                  
+                 
 
                 </div>
             </Col>

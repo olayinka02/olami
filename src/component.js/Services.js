@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
+import { ExternalLink } from 'react-external-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import illustration1 from './imagex/illustration1.svg';
@@ -28,8 +29,9 @@ const Services = () => {
                     <center>
                     <img src={illustration1} alt="illustrationimg" className="illustrationimg" />
                     <h6>web development</h6>
-                   <p>I am responsible for a responsive web pages 
-                    and app scalling through different web screen 
+                   <p>
+                   I am responsible for a responsive web pages 
+                    and app scalling through different web screen, with some nice and cool animation
                     </p>
                     </center>
                  </div>
@@ -40,8 +42,12 @@ const Services = () => {
                     <center>
                     <img src={illustration2} alt="illustrationimg" className="illustrationimg" />
                     <center> <h6>mobile development</h6></center>
-                    <p>I am responsible for a responsive web pages 
-                    and app scalling through different web screen 
+                    <p>I am a junior mobile Developer,equiped 
+                    with a skillfull knowledge of ReactJS, 
+                    converting Figma design to mobile App using <ExternalLink href="https://github.com/olayinka02/" style={{textDecorationLine:'none',color:'blue',}} > 
+                      Bravo
+                     </ExternalLink> technology.
+                   
                     </p>
                     </center>
                     </div>
@@ -51,8 +57,8 @@ const Services = () => {
                     <center>
                     <img src={illustration3} alt="illustrationimg" className="illustrationimg" />
                     <center><h6>UI/UX development</h6></center>
-                    <p>I am responsible for a responsive web pages 
-                    and app scalling through different web screen 
+                    <p>I am UI/UX Developer,Product designer 
+                      with high skills in <ExternalLink href="https://www.figma.com/about/" style={{textDecorationLine:'none',color:'blue',}} > Figma</ExternalLink> and <ExternalLink href="https://www.figma.com/about/" style={{textDecorationLine:'none',color:'blue',}} > invision</ExternalLink> as the technology tool,Implementing and making use of some plugin for animation
                     </p>
                     </center>
                  </div>
@@ -63,14 +69,16 @@ const Services = () => {
                  <center>
                    <img src={illustration4} alt="illustrationimg" className="illustrationimg" />
                    <h6>mathematics tutor</h6>
-                   <p>I am responsible for a responsive web pages 
-                    and app scalling through different web screen 
+                   <p>
+                     I am a Mathematician, with high skills of 
+                     explaining and solving Mathematical problems 
+                     using real life situation. 
                     </p>
                  </center>
                  </div>
                </Col>
            </Row>
-           </center>
+           </center><br/><br/>
        </Container>
       </div>
     );

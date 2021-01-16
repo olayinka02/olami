@@ -1,3 +1,10 @@
 //Hi there 👋🏽, I am David, a frontend engineer. I have over two years experience 
 //building pixel-perfect user interfaces &amp; awesome experiences, working with bleeding 
 //edge technologies to solve problems. I speak Angular and React right now.
+//'https://www.facebook.com/profile.php?id=100008401771991',
+},
+{
+    id:2,
+    Image:icon2,
+    Link:'https://www.linkedin.com/in/akinseye-oluwasegun-yinka-319a661a9/', 
+},

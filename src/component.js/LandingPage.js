@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { ExternalLink } from 'react-external-link';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { CursorFill } from 'react-bootstrap-icons';
-import use from './imagex/use.jpg';
+import ola1 from './imagex/ola1.jpg';
 import Title from './Title.js';
 
 
@@ -14,7 +15,7 @@ class LandingPage extends Component {
          <Row className="justify-content-md-center landingpagebody" >
            <Col sm={12} md={4} xs={12} >
              <center>
-             <img src={use} alt="altimage" className="myimage" />
+             <img src={ola1} alt="altimage" className="myimage" />
              </center>
            </Col>
            <Col  sm={12} md={7} xs={12} >
@@ -22,7 +23,9 @@ class LandingPage extends Component {
              <div className="details">
                <h2 className="name"> Oluwasegun 0layinka</h2>
                <Title />
+               <ExternalLink href="mailto:oluwasegunyinka.samuel@gmail.com?Subject=Mail%20to%20say%20hi." >
                <Button className="btnx" variant="info">Let's grab a coffee. <CursorFill /></Button>
+               </ExternalLink>
              </div>
              </center>
            </Col>
