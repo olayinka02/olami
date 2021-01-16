@@ -44,7 +44,7 @@ const Services = () => {
                     <center> <h6>mobile development</h6></center>
                     <p>I am a junior mobile Developer,equiped 
                     with a skillfull knowledge of ReactJS, 
-                    converting Figma design to mobile App using <ExternalLink href="https://www.bravostudio.app/" style={{textDecorationLine:'none',color:'blue',}} > 
+                    converting Figma design to mobile App using <ExternalLink href="https://www.bravostudio.app/" style={{textDecorationLine:'none',color:'darkblue',}} > 
                       Bravo
                      </ExternalLink> technology.
                    
@@ -58,7 +58,7 @@ const Services = () => {
                     <img src={illustration3} alt="illustrationimg" className="illustrationimg" />
                     <center><h6>UI/UX development</h6></center>
                     <p>I am UI/UX Developer,Product designer 
-                      with high skills in <ExternalLink href="https://www.figma.com/about/" style={{textDecorationLine:'none',color:'blue',}} > Figma</ExternalLink> and <ExternalLink href="https://www.invisionapp.com/company" style={{textDecorationLine:'none',color:'blue',}} > invision</ExternalLink> as the technology tool,Implementing and making use of some plugin for animation
+                      with high skills in <ExternalLink href="https://www.figma.com/about/" style={{textDecorationLine:'none',color:'darkblue',}} > Figma</ExternalLink> and <ExternalLink href="https://www.invisionapp.com/company" style={{textDecorationLine:'none',color:'darkblue',}} > invision</ExternalLink> as the technology tool,Implementing and making use of some plugin for animation
                     </p>
                     </center>
                  </div>
