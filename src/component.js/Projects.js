@@ -53,7 +53,7 @@ const Projects = () => {
                          <img src={brandone} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                        <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
+                        <p className="brandquote">Upwork brands,a clone app</p>
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -61,7 +61,7 @@ const Projects = () => {
                          <img src={brandtwo} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
+                       <p className="brandquote">Fuelup Education brand</p>
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -69,7 +69,7 @@ const Projects = () => {
                          <img src={brandfour} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>  
+                       <p className="brandquote">Bricksbond synergy limited ( Estate Management )</p>  
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -77,7 +77,7 @@ const Projects = () => {
                          <img src={brandfive} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
+                       <p className="brandquote">Kxpress Limited ( Delivery App )</p>
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -85,7 +85,7 @@ const Projects = () => {
                          <img src={brandthree} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
+                       <p className="brandquote">Peddles ( E-commerce )</p>
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -93,7 +93,7 @@ const Projects = () => {
                          <img src={brandsix} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Upwork here it a clone of upwork main frontend website</p>
+                       <p className="brandquote"> Crosgrove Limited ( Estate Management )</p>
                        </Col>
                    </Row>
                    </div><br/>
@@ -109,7 +109,7 @@ const Projects = () => {
                         </svg> Behance</h6>
                        </ExternalLink>
 
-                       <ExternalLink href="//www.facebook.com/profile.php?id=100008401771991" style={{textDecorationLine:'none',color:'blue',}} >
+                       <ExternalLink href="//oluwasegunyinkas.myportfolio.com" style={{textDecorationLine:'none',color:'blue',}} >
                          <h6>
                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
                           <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>

@@ -81,7 +81,7 @@ const Experience = () => {
                 </div><br/>
                 <div  data-aos="fade-up" className="experiencebgx">
                   <h6><GeoAlt /> Abuja, Nigeria.</h6>
-                  <ExternalLink href="tel:08101831001" style={{textDecorationLine:'none',color:'blue',}} >
+                  <ExternalLink href="tel:+2348101831001" style={{textDecorationLine:'none',color:'blue',}} >
                   <h6><TelephoneOutbound /> 08101831001</h6>
                   </ExternalLink>
 
@@ -98,7 +98,7 @@ const Experience = () => {
                   </ExternalLink>
 
                   
-                  <ExternalLink  href=" https://wa.me/08101831001?text=Hello 👋🏽,%20you%20are%20welcome,%20How%20may%20I%20help%20you"  style={{textDecorationLine:'none',color:'blue',}} >
+                  <ExternalLink  href=" https://wa.me/+2348101831001?text=Hello 👋🏽,%20you%20are%20welcome,%20How%20may%20I%20help%20you"  style={{textDecorationLine:'none',color:'blue',}} >
                   <h6><ChatText /> Whatsapp  </h6>
                   </ExternalLink>
                   
