@@ -69,7 +69,7 @@ const Projects = () => {
                          <img src={brandfour} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Bricksbond synergy limited( Estate Management )</p>  
+                       <p className="brandquote">Bricksbond synergy limited(Estate Management)</p>  
                        </Col>
                    </Row><hr/>
                    <Row>
