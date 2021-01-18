@@ -3,7 +3,7 @@ import { ExternalLink } from 'react-external-link';
 import { Container, Row,Col } from 'react-bootstrap';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import {  BriefcaseFill, Building, GeoAltFill, CalendarMonth, StarFill,StarHalf,GeoAlt, Envelope, Github, Linkedin, TelephoneOutbound, Award, CalendarCheck,  ChatText} from 'react-bootstrap-icons';
+import {  BriefcaseFill, Building, GeoAltFill, CalendarMonth, StarFill,StarHalf,GeoAlt, Envelope, Github, Linkedin, TelephoneOutbound, Award, CalendarCheck,  ChatText, Twitter} from 'react-bootstrap-icons';
 //import illustration1 from './imagex/illustration1.svg';
 
 
@@ -18,17 +18,26 @@ const Experience = () => {
             <Col sm={12} md={5}>
               <div  data-aos="zoom-in-up" className="experiencebg">
               <h4>Skills</h4>
+              <h6>UI/UX Design</h6>
               <ul>
-                <li>UI/UX Design (Figma,Invision etc)</li>
+                <li>Figma</li>
+                <li>Invision</li>
+              </ul>
+              <h6>Frontend Development</h6> 
+              <ul> 
                 <li>HTML5 & CSS3</li>
                 <li>JavaScript (ES6 Hands-on)</li>
                 <li>Bootstrap</li>
                 <li>ReactJS/React-Native</li>
+              </ul>
+              <h6>Backend Development</h6>
+              <ul>
                 <li>Nodejs (Express)</li>
                 <li>PHP</li>
                 <li>Python</li>
-                <li>MATLAB</li>
-              </ul>
+              </ul>  
+                <h6>Others :</h6><span style={{paddingLeft:21,}}>MATLAB</span>
+              
               </div><br/>
               
               <div  data-aos="fade-up" className="experiencebg">
@@ -42,7 +51,7 @@ const Experience = () => {
                 <li>Remote work</li>
                 <li>Agile Methodology</li>
                 <li>Work Ethics</li>
-                <li>Debugging</li>
+               
               </ul>
               </div><br/>
               <div   data-aos="zoom-in-up" className="experiencebg">
@@ -67,10 +76,14 @@ const Experience = () => {
                   <li>Deploy all web applications to Netlify for test purposes.</li>
                   <li>Agile Development including daily stand-ups.</li>
                   <li>Converting user interfaces from Figma</li>
-                  <li>Actively using GitLab for all projects.</li>
+                  <li>Actively using GitHub for all projects.</li>
                   <li>Research software engineering choices and tools</li>
                   <li>Protyping UI/UX design and makes it function like a real App</li>
                   <li>Designing and creating of giff,animation and brands</li>
+                  <li>converting static design to HTML and CSS</li>
+                  <li>Responsive design that work acrosss mobile and desktop devices</li>
+                  <li>interactivity with CSS effects, transitions, and animation</li>
+                  <li>creating forms,data validations and lots more...</li>
                 </ul>
                 </div><br/>
                 <div data-aos="fade-up" className="experiencebgx">
@@ -97,8 +110,12 @@ const Experience = () => {
                   <h6><Linkedin /> Linkedin</h6>
                   </ExternalLink>
 
+                  <ExternalLink href='https://twitter.com/YinkaAkinseye' style={{textDecorationLine:'none',color:'darkblue',}} >
+                  <h6><Twitter /> Twitter</h6>
+                  </ExternalLink>
+
                   
-                  <ExternalLink  href=" https://wa.me/+2348101831001?text=Hello 👋🏽,%20you%20are%20welcome,%20How%20may%20I%20help%20you"  style={{textDecorationLine:'none',color:'darkblue',}} >
+                  <ExternalLink  href=" https://wa.me/+2348101831001?text=Hello%20Ola👋🏽%20...%20"  style={{textDecorationLine:'none',color:'darkblue',}} >
                   <h6><ChatText /> Whatsapp  </h6>
                   </ExternalLink>
                   

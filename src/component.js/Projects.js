@@ -69,7 +69,7 @@ const Projects = () => {
                          <img src={brandfour} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Bricksbond synergy limited ( Estate Management )</p>  
+                       <p className="brandquote">Bricksbond synergy limited( Estate Management )</p>  
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -77,7 +77,7 @@ const Projects = () => {
                          <img src={brandfive} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Kxpress Limited ( Delivery App )</p>
+                       <p className="brandquote">Kxpress Limited( Delivery App )</p>
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -85,7 +85,7 @@ const Projects = () => {
                          <img src={brandthree} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote">Peddles ( E-commerce )</p>
+                       <p className="brandquote">Peddles( E-commerce )</p>
                        </Col>
                    </Row><hr/>
                    <Row>
@@ -93,7 +93,7 @@ const Projects = () => {
                          <img src={brandsix} alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
-                       <p className="brandquote"> Crosgrove Limited ( Estate Management )</p>
+                       <p className="brandquote"> Crosgrove Limited( Estate Management )</p>
                        </Col>
                    </Row>
                    </div><br/>
