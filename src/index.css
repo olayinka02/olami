@@ -2,11 +2,12 @@
 html{
   width:100%;
   overflow-y: hidden;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
   margin: 0;
   background-color:whitesmoke;
-  font-family:"luna";
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -47,7 +48,7 @@ div.details{
   margin-top:-2rem;
 }
 h2.name{
-  font-family:"luna";
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: whitesmoke;
@@ -250,7 +251,7 @@ img.brandx{
 @media (min-width: 576px) {  
   body {
     margin: 0;
-    font-family:"luna"
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   div.landingpage{
     background-color:#85B6C6;
@@ -282,7 +283,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color:whitesmoke;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -397,7 +398,7 @@ img.brandx{
 @media (min-width: 768px) { 
   body {
     margin: 0;
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   div.landingpage{
     background-color:#85B6C6;
@@ -428,7 +429,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -559,7 +560,7 @@ img.brandx{
 @media (min-width: 992px) { 
   body {
     margin: 0;
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   div.landingpage{
     background-color:#85B6C6;
@@ -590,7 +591,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -719,7 +720,7 @@ img.brandx{
 
   body {
     margin: 0;
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color:whitesmoke;
   }
   div.landingpage{
@@ -751,7 +752,7 @@ img.brandx{
     margin-top:-2rem;
   }
   h2.name{
-    font-family:"luna";
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

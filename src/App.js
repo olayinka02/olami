@@ -5,6 +5,7 @@ import Introduction from './component.js/Introduction';
 import Services from './component.js/Services';
 import Experience from './component.js/Experience';
 import Projects from './component.js/Projects';
+import iconxx from './component.js/imagex/iconxx.svg';
 
 class App extends Component {
   render() {
@@ -15,7 +16,15 @@ class App extends Component {
        <Introduction /><br/><br/>
        <Services />
        <Experience /><br/><br/><br/><br/>
-       <Projects /><br/><br/>
+       <Projects /><br/>
+       <center>
+         <p>Designed by<img
+                style={{paddingTop:-4,}}
+                src={iconxx}
+                className="d-inline-block align-top logo"
+                alt="React Bootstrap logo"
+            /> </p>
+       </center>
       </div>
     );
   }

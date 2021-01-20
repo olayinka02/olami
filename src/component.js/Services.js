@@ -43,7 +43,7 @@ const Services = () => {
                     <img src={illustration2} alt="illustrationimg" className="illustrationimg" />
                     <center> <h6>mobile development</h6></center>
                     <p>I am a junior mobile Developer,equiped 
-                    with a skillfull knowledge of ReactJS, 
+                    with a skillfull knowledge of ReactJS (Native), 
                     converting Figma design to mobile App using <ExternalLink href="https://www.bravostudio.app/" style={{textDecorationLine:'none',color:'darkblue',}} > 
                       Bravo
                      </ExternalLink> technology.
