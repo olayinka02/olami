@@ -36,6 +36,11 @@ const Experience = () => {
                 <li>PHP</li>
                 <li>Python</li>
               </ul>  
+              <h6>Database</h6>
+              <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>  
                 <h6>Others :</h6><span style={{paddingLeft:21,}}>MATLAB</span>
               
               </div><br/>
@@ -49,7 +54,6 @@ const Experience = () => {
                 <li>Communication</li>
                 <li>Adaptability</li>
                 <li>Remote work</li>
-                <li>Agile Methodology</li>
                 <li>Work Ethics</li>
                
               </ul>
@@ -84,11 +88,13 @@ const Experience = () => {
                   <li>Responsive design that work acrosss mobile and desktop devices</li>
                   <li>interactivity with CSS effects, transitions, and animation</li>
                   <li>creating forms,data validations and lots more...</li>
+                  <li>Designing and creation of flyers and brands for business growth</li>
                 </ul>
                 </div><br/>
                 <div data-aos="fade-up" className="experiencebgx">
                   <h4>Education</h4>
                   <h6><Award /> B.Sc Mathematical Sciences</h6>
+
                   <p><GeoAlt /> Adekunle Ajasin University Akungba-Akoko,Ondo State</p>
                   <p><CalendarCheck /> 2015-2018</p>
                 </div><br/>
