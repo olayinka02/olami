@@ -43,7 +43,7 @@ const Projects = () => {
   }, []);
     return (
       <div className="project">
-          <center><h2 className="service" >Latest Projects</h2></center><hr/>
+          <center><h2 className="service">Latest Projects</h2></center><hr/>
        <Container >
            <Row>
                <Col  data-aos="fade-up" sm={12} md={3}>
