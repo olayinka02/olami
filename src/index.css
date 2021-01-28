@@ -235,14 +235,7 @@ img.brandx{
  margin-top: -3rem;
   margin:auto;
 }
-.counter{
-  background-color:black;
-  color: #f3f9fa;
-  text-align: center;
-  width: 4rem;
-  border-radius: 50%;
-  margin: 1rem auto;
-}
+
 
 
 
@@ -503,7 +496,7 @@ img.brandx{
   }
   .servicebg{
     width: 100%;
-    height:46rem;
+    height:53rem;
     background-color: #f3f9fa;
     margin-left: auto;
     margin-right: auto;
@@ -523,7 +516,7 @@ img.brandx{
     margin-right:auto;
     padding-left:auto;
     padding-right:auto;
-    margin-top:8rem;
+    margin-top:15rem;
   }
   div.experiencebgxx{
     padding-left:auto;

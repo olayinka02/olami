@@ -20,9 +20,9 @@ const Services = () => {
          <center>
            <center  data-aos="fade-up">
            <h2 className="service">Services</h2>
-           <h6  className="service" >C0ntact 0la for any of the following.. <span  data-aos="fade-right"
+           <h6  className="service" >C0ntact <ExternalLink href="tel:+2348101831001" style={{textDecorationLine:'none',color:'darkblue',}} > <TelephoneOutbound style={{height:20,width:20,}} /> 0la</ExternalLink> for any of the following.. <span  data-aos="fade-right"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine" style={{padding:5,}} > <ExternalLink href="tel:+2348101831001" style={{textDecorationLine:'none',}} > <TelephoneOutbound style={{height:20,width:20,}} /></ExternalLink></span></h6>
+     data-aos-easing="ease-in-sine" style={{padding:5,}} ></span></h6>
            </center>
           
            <Row>
