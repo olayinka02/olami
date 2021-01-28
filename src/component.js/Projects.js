@@ -51,7 +51,7 @@ const Projects = () => {
                    <h5>Brand Designed.</h5><hr/>
                    <Row>
                        <Col sm={5} md={12} xs={12}>
-                         <img src={brandone} alt="brand" className="brandimg" />
+                         <img src={brandone}  alt="brand" className="brandimg" />
                        </Col>
                        <Col sm={7} md={12} xs={12}>
                         <p className="brandquote">Upwork brands,a clone app</p>
