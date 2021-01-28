@@ -98,7 +98,7 @@ const Projects = () => {
                        </Col>
                    </Row>
                    </div><br/>
-                   <div className="projectbg" >
+                   <div className="projectbg"  >
                    <h5>Product Designed.</h5><hr/>
                    <Row>
                      <Col sm={12} md={12}>
