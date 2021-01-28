@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import CountUp from 'react-countup';
 import { ExternalLink } from 'react-external-link';
 
 import { Container, Col, Row, Carousel } from 'react-bootstrap';
