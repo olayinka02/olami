@@ -16,7 +16,7 @@ class App extends Component {
        <Introduction /><br/><br/>
        <Services />
        <Experience /><br/><br/><br/><br/>
-       <Projects /><br/>
+       <Projects /><hr/>
        <center>
          <p>Designed by<img
                 style={{paddingTop:-4,}}

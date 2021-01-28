@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
+import CountUp from 'react-countup';
 import { ExternalLink } from 'react-external-link';
+
 import { Container, Col, Row, Carousel } from 'react-bootstrap';
 import { BoxArrowUpRight,Cloud}  from 'react-bootstrap-icons';
 import Aos from 'aos';
@@ -47,7 +49,7 @@ const Projects = () => {
            <Row>
                <Col  data-aos="fade-up" sm={12} md={3}>
                    <div className="projectbg">
-                   <h4>Brand Designed.</h4><hr/>
+                   <h5>Brand Designed.</h5><hr/>
                    <Row>
                        <Col sm={5} md={12} xs={12}>
                          <img src={brandone} alt="brand" className="brandimg" />
@@ -98,7 +100,7 @@ const Projects = () => {
                    </Row>
                    </div><br/>
                    <div className="projectbg" >
-                   <h4>Product Designed.</h4><hr/>
+                   <h5>Product Designed.</h5><hr/>
                    <Row>
                      <Col sm={12} md={12}>
                      <ExternalLink href="//oluwasegunyinkas.myportfolio.com" style={{textDecorationLine:'none',color:'blue',}} >

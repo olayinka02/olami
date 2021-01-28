@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
+import { TelephoneOutbound } from 'react-bootstrap-icons';
 import { ExternalLink } from 'react-external-link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -19,7 +20,9 @@ const Services = () => {
          <center>
            <center  data-aos="fade-up">
            <h2 className="service">Services</h2>
-           <h6  className="service" >C0ntact 0la for any of the following.</h6>
+           <h6  className="service" >C0ntact 0la for any of the following.. <span  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" style={{padding:5,}} > <ExternalLink href="tel:+2348101831001" style={{textDecorationLine:'none',}} > <TelephoneOutbound style={{height:20,width:20,}} /></ExternalLink></span></h6>
            </center>
           
            <Row>
@@ -57,7 +60,7 @@ const Services = () => {
                     <center>
                     <img src={illustration3} alt="illustrationimg" className="illustrationimg" />
                     <center><h6>UI/UX development</h6></center>
-                    <p>I am UI/UX Developer,Product designer 
+                    <p>I am a UI/UX Developer,Product designer 
                       with high skills in <ExternalLink href="https://www.figma.com/about/" style={{textDecorationLine:'none',color:'darkblue',}} > Figma</ExternalLink> and <ExternalLink href="https://www.invisionapp.com/company" style={{textDecorationLine:'none',color:'darkblue',}} > invision</ExternalLink> as the technology tool,Implementing and making use of some plugin for animation
                     </p>
                     </center>
