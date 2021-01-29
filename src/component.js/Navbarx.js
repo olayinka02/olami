@@ -8,7 +8,7 @@ class Navbarx extends Component {
   render() {
     return (
       <div>
-           <Navbar className="navhead">
+           <Navbar fixed="top" className="navhead">
             <Navbar.Brand href="#home">
             <img
                 src={iconxx}
